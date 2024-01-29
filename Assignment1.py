@@ -5,7 +5,6 @@ import pandas as pd
 count = 0
 for w in wn.words():
   count=count+1
-print("Total words in WordNet",count)
 
 correct_spellings = []
 incorrect_spellings = []
@@ -30,7 +29,6 @@ data = {
   "correct": correct_spellings
 }
 
-#load data into a DataFrame object:
 df = pd.DataFrame(data)
 
 
